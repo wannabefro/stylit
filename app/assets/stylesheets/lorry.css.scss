@@ -1,0 +1,30 @@
+.internship {
+  font-size: 5em;
+}
+
+.seen {
+  text-align: center;
+  border: 100px solid blue;
+  border-radius: 100%;
+  -webkit-filter: blur(50px);
+  font-size: 1em;
+  -webkit-transform: rotate(180deg);
+  transition: 100s;
+}
+
+@media (min-width: 1000px) {
+  .seen {
+    font-size: 7em;
+    -webkit-transform: rotate(2700deg);
+    -webkit-filter: blur(0px);
+    border: 1px solid red;
+  }
+}
+
+.rotate {
+  -webkit-transform: rotate(180000deg);
+}
+
+.pink {
+  transition: 1s;
+}
